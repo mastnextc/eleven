@@ -4,10 +4,11 @@
   "description": "Professional Women's Fashion E-commerce Website",
   "main": "index.js",
   "scripts": {
-    "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend && npm install --prefix admin",
     "backend": "npm start --prefix backend",
     "frontend": "npm run dev --prefix frontend",
-    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+    "admin": "npm run dev --prefix admin",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\" \"npm run admin\""
   },
   "dependencies": {
     "concurrently": "^8.2.2"

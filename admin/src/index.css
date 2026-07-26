@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  /* Redefine stone palette to match minimal Black & White theme */
+  --color-stone-900: #000000; /* Pure Black */
+  --color-stone-850: #1a1a1a;
+  --color-stone-800: #262626;
+  --color-stone-700: #404040;
+  --color-stone-600: #525252;
+  --color-stone-500: #737373; /* Mid Gray */
+  --color-stone-450: #888888;
+  --color-stone-400: #a3a3a3;
+  --color-stone-350: #c2c2c2;
+  --color-stone-300: #e5e5e5;
+  --color-stone-250: #ececec;
+  --color-stone-200: #f5f5f5;
+  --color-stone-150: #fafafa;
+  --color-stone-100: #fbfbfb;
+  --color-stone-50: #ffffff;  /* Pure White Background */
+
+  /* Redefine amber palette to match Black & White theme accents */
+  --color-amber-600: #262626;
+  --color-amber-700: #000000; /* Primary action black links/accent text */
+  --color-amber-800: #111111;
+  --color-amber-900: #404040;
+  --color-amber-950: #000000;
+}
+
+:root {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--color-stone-50);
+  color: var(--color-stone-900);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #000000;
+}

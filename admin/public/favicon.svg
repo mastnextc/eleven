@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 110" fill="none">
+  <!-- Left Stylized '1' (Dark Charcoal) -->
+  <path d="M37 20 H50 V75 L40 85 V30 L30 30 Z" fill="#1c1917"/>
+  <path d="M40 89 L50 79 V98 L40 108 Z" fill="#1c1917"/>
+  
+  <!-- Right Stylized '1' (Beige/Sand) -->
+  <path d="M57 20 H70 V75 L60 85 V30 L50 30 Z" fill="#a39281"/>
+  <path d="M60 89 L70 79 V98 L60 108 Z" fill="#a39281"/>
+</svg>

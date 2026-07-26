@@ -14,7 +14,6 @@ import Checkout from './pages/Checkout';
 import MyOrders from './pages/MyOrders';
 import Wishlist from './pages/Wishlist';
 import Login from './pages/Login';
-import AdminDashboard from './pages/AdminDashboard';
 
 function App() {
   return (
@@ -36,7 +35,6 @@ function App() {
               <Route path="/orders" element={<MyOrders />} />
               <Route path="/wishlist" element={<Wishlist />} />
               <Route path="/login" element={<Login />} />
-              <Route path="/admin" element={<AdminDashboard />} />
             </Routes>
           </main>
 

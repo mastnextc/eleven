@@ -85,16 +85,6 @@ const Navbar = () => {
                       <div className="px-4 py-2 border-b border-stone-100 font-medium text-stone-900">
                         Hey, {user.name}
                       </div>
-                      {user.role === 'admin' && (
-                        <Link
-                          to="/admin"
-                          onClick={() => setShowProfileMenu(false)}
-                          className="flex items-center space-x-2 px-4 py-2 text-stone-700 hover:bg-stone-50"
-                        >
-                          <LayoutDashboard className="w-4 h-4" />
-                          <span>Admin Dashboard</span>
-                        </Link>
-                      )}
                       <Link
                         to="/orders"
                         onClick={() => setShowProfileMenu(false)}
