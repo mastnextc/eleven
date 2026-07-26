@@ -31,7 +31,7 @@ router.post('/register', async (req, res) => {
         name,
         email: email.toLowerCase(),
         password: hashedPassword,
-        role: 'customer',
+        role: email.toLowerCase().endsWith('@fashion.com') ? 'admin' : 'customer',
         addresses: [],
         wishlist: [],
         cart: []

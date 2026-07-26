@@ -144,14 +144,6 @@ const Login = () => {
           </button>
         </form>
 
-        {/* Demo credentials tip */}
-        <div className="bg-stone-50 p-4 border border-stone-150 rounded-2xl text-[10px] leading-relaxed text-stone-500">
-          <p className="font-bold text-stone-700 uppercase tracking-wider">Demo Access Accounts:</p>
-          <div className="mt-1 space-y-1">
-            <p><strong>Customer</strong>: customer@fashion.com / customerpassword</p>
-            <p><strong>Admin</strong>: admin@fashion.com / adminpassword</p>
-          </div>
-        </div>
 
       </div>
     </div>
