@@ -17,13 +17,9 @@ const Login = () => {
 
   useEffect(() => {
     if (token) {
-      if (user && user.role === 'admin') {
-        navigate('/admin');
-      } else {
-        navigate('/');
-      }
+      navigate('/');
     }
-  }, [token, user]);
+  }, [token]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

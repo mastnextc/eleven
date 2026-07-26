@@ -35,6 +35,7 @@ function App() {
               <Route path="/orders" element={<MyOrders />} />
               <Route path="/wishlist" element={<Wishlist />} />
               <Route path="/login" element={<Login />} />
+              <Route path="*" element={<Home />} />
             </Routes>
           </main>
 
