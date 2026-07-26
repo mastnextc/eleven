@@ -1,29 +1,29 @@
 @import "tailwindcss";
 
 @theme {
-  /* Redefine stone palette to match brand colors */
-  --color-stone-900: #3C2F2F; /* Mocha Brown */
-  --color-stone-850: #463737;
-  --color-stone-800: #4D3E3E;
-  --color-stone-700: #5C4D4D;
-  --color-stone-600: #7C6D6D;
-  --color-stone-500: #8C7E6E; /* Warm Stone */
-  --color-stone-450: #968878;
-  --color-stone-400: #A69888;
-  --color-stone-350: #B6A898;
-  --color-stone-300: #C6B8A8;
-  --color-stone-250: #D6C8B8;
-  --color-stone-200: #E6D8C8;
-  --color-stone-150: #EFE9E2;
-  --color-stone-100: #F4EDE5;
-  --color-stone-50: #FAF6F0;  /* Warm Off-white */
+  /* Redefine stone palette to match minimal Black & White theme */
+  --color-stone-900: #000000; /* Pure Black */
+  --color-stone-850: #1a1a1a;
+  --color-stone-800: #262626;
+  --color-stone-700: #404040;
+  --color-stone-600: #525252;
+  --color-stone-500: #737373; /* Mid Gray */
+  --color-stone-450: #888888;
+  --color-stone-400: #a3a3a3;
+  --color-stone-350: #c2c2c2;
+  --color-stone-300: #e5e5e5;
+  --color-stone-250: #ececec;
+  --color-stone-200: #f5f5f5;
+  --color-stone-150: #fafafa;
+  --color-stone-100: #fbfbfb;
+  --color-stone-50: #ffffff;  /* Pure White Background */
 
-  /* Redefine amber palette to match Champagne Gold */
-  --color-amber-600: #E5C380;
-  --color-amber-700: #D4B26F; /* Champagne Gold */
-  --color-amber-800: #C3A15E;
-  --color-amber-900: #A1804E;
-  --color-amber-950: #291F13;
+  /* Redefine amber palette to match Black & White theme accents */
+  --color-amber-600: #262626;
+  --color-amber-700: #000000; /* Primary action black links/accent text */
+  --color-amber-800: #111111;
+  --color-amber-900: #404040;
+  --color-amber-950: #000000;
 }
 
 :root {
@@ -35,6 +35,6 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: #FAF6F0;
-  color: #3C2F2F;
+  background-color: #ffffff;
+  color: #000000;
 }

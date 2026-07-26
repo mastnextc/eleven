@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Logo = ({ className = "h-12 w-auto", dark = false }) => {
-  const primaryColor = dark ? "#FAF6F0" : "#3C2F2F";
-  const accentColor = "#D4B26F"; // Champagne Gold theme color
+  const primaryColor = dark ? "#ffffff" : "#000000";
+  const accentColor = "#737373"; // Minimal Gray theme accent
 
   return (
     <div className={`flex items-center space-x-3 select-none`}>
